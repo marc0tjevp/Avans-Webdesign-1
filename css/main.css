@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 60px;
+}
+
+h1 {
+  background-color: lightgrey;
+}
+
+hr {
+  color: red;
+}
+
+.container {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+.menu li .right {
+  float: right;
+}
+
+.imagepadding{
+  padding: 10px;
+  display: block;
+   margin: auto;
+}
+
+.col3 {
+   -webkit-column-count: 3;
+   column-count: 3;
+   -webkit-column-gap: 100px;
+   -webkit-column-rule: 1px solid black;
+}
